@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.container{
+    margin: 150px;
+}
+.center{
+    text-align: center;
+}
+.fontsize20px{
+    font-size: 20px;
+}
+.fontsize10px{
+    font-size: 18px;
+}
+.margintop10px{
+    margin-top: 10px;
+}
+.margintop20px{
+    margin-top: 20px;
+}
+.textIndent25px{
+    text-indent: 25px;
+}
+.abc{
+    text-align: right;
+    margin-right: 50px;
+}
+.xyz{
+    text-align: right;
+    margin-right: 130px;
+}
+.sss{
+    text-align: right;
+    margin-right: 160px;    
+}
