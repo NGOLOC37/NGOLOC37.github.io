@@ -1,0 +1,20 @@
+.size{
+    width: 200px;
+    height: 200px;
+    margin:20px;
+}
+.red{
+    background-color: red;   
+    float: left;
+}
+.clear-float{
+    clear: both;
+}
+.black{
+    background-color: black;
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
