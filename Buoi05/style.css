@@ -62,15 +62,14 @@ a{
 }
 .course-info{
     flex: 4;
-    min-width: 500px;
     background-color: white;
     padding: 20px 20px 0px 20px;
 }
 .button-signin{
     font-size: 16px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 7px 0px 7px 0px;
     color: #61B4F3;
+    display: block;
 }
 .course-year{
     color: white;
