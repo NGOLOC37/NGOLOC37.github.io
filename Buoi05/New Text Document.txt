@@ -1,0 +1,10 @@
+Các đơn vị trong CSS
+
+- Đơn vị tương đối:
++ %: tính theo phần trăm của div cha
++ em: tính theo font size của thg cha
++ rem: tính theo font size của thẻ html
+
+
+- Đơn vị tuyệt đối:
++ Tính chính xác theo đơn vị vật lý: px(pixel), pt(point)

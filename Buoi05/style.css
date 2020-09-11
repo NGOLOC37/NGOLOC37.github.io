@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    color: #464646;
+}
+body{
+    /* display: flex; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    /* height: 42px; */
+    background-color: #34465C;
+    display: flex;
+    justify-content: space-between;
+}
+.body{
+    padding: 50px; 
+    background-color: #F4F7FA;
+    background-clip: border-box;
+    
+}
+.menu-item{
+    font-size: 18px;
+    color: #464646;
+    margin: 0px 15px 25px 5px;
+
+}
+.arrow{
+    font-size: 14px;
+}
+.footer{
+    background-color: #464646;
+    display: flex;
+}
+.body-content{
+    display: flex;
+}
+.courses-content{
+    flex: 2;
+    margin-right: 20px;
+    display: block;
+    
+}
+.map{
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.course{
+    flex: 1;
+    margin-bottom: 25px;
+    display: flex;
+}
+.course-time{
+    flex: 1;
+}
+.course-info{
+    flex: 4;
+    min-width: 500px;
+    background-color: white;
+    padding: 20px 20px 0px 20px;
+}
+.button-signin{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #61B4F3;
+}
+.course-year{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.course-day{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+}
+.course-month{
+    color: white;
+    text-align: center;
+    font-size: 20px;  
+    padding-bottom: 25px; 
+}
+.course-info-tittle{
+    font-size: 23px;
+}
+.course-info-teacher{
+    margin-top: 5px;
+    font-size: 13px;
+}
+.timetable{
+    display: flex;
+    margin-bottom: 10px;
+}
+.timetable-item{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 13px;
+}
+i{
+    margin-right: 10px;
+}
+.course01-bg{
+    background-color: #FE6D3F; 
+}
+.course01-year-bg{
+    background-color: #EF5321;
+}
+.course02-bg{
+    background-color: #4B96F2; 
+}
+.course02-year-bg{
+    background-color: #2682F2;
+}
+.course03-bg{
+    background-color: #FBBC05; 
+}
+.course03-year-bg{
+    background-color: #F89707;
+}
+.course04-bg{
+    background-color: #4DB446; 
+}
+.course04-year-bg{
+    background-color: #088D2D;
+}
+.map-margin-bottom{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.iframe-stuyle{
+    width: 100%;
+    height: 300px;
+}
+.logo{
+    margin-left: 10px;
+    padding: 5px;  
+}
+.list-menu{
+    margin: 20px;
+}
+.list-menu a{
+    color: white;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+.list-menu a:hover{
+    color: #ccc;
+}
+.footer-column{
+    margin: 30px;
+    flex: 1;
+}
+.footer-column-tittle{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer-column-content{
+    color:#919294;
+    margin-bottom: 12px;
+}
