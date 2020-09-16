@@ -112,10 +112,6 @@ function abc(n) {
 }
 abc(15);
 
-// Viết một function nhận vào string, trả về số lượng nguyên âm có trong string
-// function vowelnumber(str) {
-
-// }
 
 // Viết hàm tìm ra số nhỏ nhất trong mảng các số.
 function minNumbers(array) {
@@ -133,12 +129,6 @@ function max2Number(array) {
 }
 console.log(max2Number([5,4,6,3,2]));
 
-// Viết hàm truyền vào 1 mảng tên học viên, sắp xếp lại mảng này theo chiều ngược của bảng chữ cái.
-// function sortStudents(array) {
-//     array.sort();    
-//     return array;
-// }
-// console.log(sortStudents(['Nam', 'Hoa', 'Tuấn']));
 
 // Tính tổng các số chia hết cho 5 từ 0 -> 100
 
