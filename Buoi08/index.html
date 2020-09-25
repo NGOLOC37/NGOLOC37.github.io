@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        table, td, th {
+            border: 1px solid #dddddd;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 10px;
+            text-align: center;
+        }
+        caption {
+            caption-side: bottom;
+        }
+        tr:nth-child(1) {
+            background-color: #13abb1;
+        }
+    </style>
 </head>
 <body>
     <form action="#" target="_blank" method="POST">
@@ -29,7 +45,67 @@
         <br>
         <button type="submit">Send</button>
         <button type="reset">Reset</button>
-
-    </form>   
+    </form> 
+      <!-- Thực hành select -->
+      <br>
+      <label for="">Chọn một hãng xe:</label>
+      <select name="car" id="car">
+          <option value="toyota">Toyota</option>
+          <option value="vinfast" selected>Vinfast</option>
+          <option value="huyndai">Huyndai</option>
+          <option value="lexus">Lexus</option>
+      </select>
+      <br>
+      <br>
+      <!-- Thực hành table -->
+      <table>
+        <caption>Danh sách sinh viên</caption>
+        <TR>
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th>Địa chỉ</th>
+            <th>Ghi chú</th>
+        </TR>
+        <TR>
+            <Td>01</Td>
+            <Td>Nguyễn Ngô Lộc</Td>
+            <Td>Nghệ an</Td>
+            <Td>Đẹp trai</Td>
+        </TR>
+        <TR>
+            <Td>02</Td>
+            <Td>Nguyễn Ngô Lộc</Td>
+            <Td>Nghệ an</Td>
+            <Td>Đẹp trai</Td>
+        </TR>
+        <TR>
+            <Td>03</Td>
+            <Td>Nguyễn Ngô Lộc</Td>
+            <Td>Nghệ an</Td>
+            <Td>Đẹp trai</Td>
+        </TR>
+        <TR>
+            <Td>04</Td>
+            <Td>Nguyễn Ngô Lộc</Td>
+            <Td>Nghệ an</Td>
+            <Td>Đẹp trai</Td>
+        </TR>
+        <TR>
+            <Td>05</Td>
+            <Td colspan="2">Không có thông tin</Td>
+            <Td></Td>
+        </TR>
+        <TR>
+            <Td>06</Td>
+            <Td>Nguyễn Ngô Lộc</Td>
+            <Td rowspan="2">Nghệ an</Td>
+            <Td>Đẹp trai</Td>
+        </TR>
+        <TR>
+            <Td>07</Td>
+            <Td>Nguyễn Văn A</Td>
+            <Td>Đẹp trai</Td>
+        </TR>
+      </table>
 </body>
 </html>
