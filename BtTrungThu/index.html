@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <img class="img01" src="./img/child.png" alt="">
+        <img class="img02" src="./img/child02.png" alt="">
+        <img class="img03" src="https://i.pinimg.com/originals/67/ef/07/67ef07136d31b99ec92e82090550c1b4.gif" alt="">
+    </div>
+    <iframe src="./music/Chiếc đèn ông sao.mp3" allow="autoplay" id="audio" style="display:none"></iframe> 
+    <audio autoplay loop>
+        <source src="./music/Chiếc đèn ông sao.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (!isChrome){
+             $('#iframeAudio').remove()
+         }
+        else {
+            $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+         }
+    </script>
+</body>
+</html>
